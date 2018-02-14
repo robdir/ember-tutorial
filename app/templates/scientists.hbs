@@ -1,13 +1,3 @@
-{{!-- rendering plain HTML --}}
-<h2> List of ze scientists </h2>
-
-{{!-- rendering data as specified in routes --}}
-
-<ul>
-    {{#each model as |scientist|}}
-        <li>{{scientist}}</li>
-        <br>
-    {{/each}}
-</ul>
+{{people-list title="List of Scientists" people=model}}
 
 {{outlet}}

@@ -2,8 +2,9 @@
 
 <ul>
     {{#each people as |person|}}
-    <li>{{person}}</li>
-    <br> {{/each}}
+    <li{{action "showPerson" person}}>{{person}}</li>
+    <br>
+    {{/each}}
 </ul>
 
 {{yield}}

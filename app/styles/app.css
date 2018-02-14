@@ -4,12 +4,18 @@ html, ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+.header {
+    padding: 1em;
+    border: 2px solid darkgrey;
+    border-radius: 1em;
+}
+
 .title {
-    font-size: xx-large;
+    font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .body {
     font-family: fantasy;
-    font-size: xx-large;
+    font-size: large;
 }

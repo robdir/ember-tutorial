@@ -1,4 +1,15 @@
 html, ul {
     text-align: center;
     list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.title {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.body {
+    font-family: fantasy;
+    font-size: xx-large;
 }

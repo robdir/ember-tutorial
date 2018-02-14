@@ -3,4 +3,11 @@
 
 {{!-- rendering data as specified in routes --}}
 
+<ul>
+    {{#each model as |scientist|}}
+        <li>{{scientist}}</li>
+        <br>
+    {{/each}}
+</ul>
+
 {{outlet}}
